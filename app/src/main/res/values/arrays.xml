@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="difficulty">
+        <item>All</item>
+        <item>easy</item>
+        <item>medium</item>
+        <item>hard</item>
+        String</string-array>
+
+    <string-array name="category">
+        <item>All</item>
+        <item>Science and Nature</item>
+        <item>Science:Computers</item>
+        <item>Science:Mathematics</item>
+        <item>Mythology</item>
+        <item>Sports</item>
+        <item>Geography</item>
+        <item>History</item>
+        <item>Politics</item>
+        <item>Art</item>
+        <item>Celebrities</item>
+        <item>Animals</item>
+    </string-array>
+</resources>

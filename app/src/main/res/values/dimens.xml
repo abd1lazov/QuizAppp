@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="height_90dp">90dp</dimen>
+    <dimen name="start_64dp">64sp</dimen>
+    <dimen name="top_44sp">44sp</dimen>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="81sp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="81sp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#1A051D"
+        android:textSize="22sp"
+        tools:text="What is the largest city and commercial capital of Sri Lanka?" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_question"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/bg_btn_rounded"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        tools:text="Colombo" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_first"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/bg_btn_second"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        tools:text="Colombo" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_third"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_second"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/bg_btn_third"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        tools:text="Colombo" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_fourth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_third"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/bg_btn_correct"
+        android:textAllCaps="false"
+        android:textColor="#6979F8"
+        tools:text="Colombo" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_fourth"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/bg_btn_skip"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/skip"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+</RelativeLayout>
